@@ -157,4 +157,7 @@ void PP<T>::show()
 
 }
 
+template class urt::PP<double>;
+template class urt::PP<float>;
+
 

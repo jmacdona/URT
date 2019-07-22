@@ -462,4 +462,8 @@ std::ostream& operator<<(std::ostream& out, urt::OLS<T>& result)
 
 }
 
+template class urt::OLS<double>;
+template class urt::OLS<float>;
+
+
 

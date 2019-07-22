@@ -1255,3 +1255,9 @@ std::ostream& operator<<(std::ostream& out, urt::UnitRoot<T>& test)
 //=================================================================================================
 
 }
+
+template class urt::UnitRoot<double>;
+template class urt::UnitRoot<float>;
+
+
+

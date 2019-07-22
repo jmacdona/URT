@@ -91,3 +91,8 @@ void DFGLS<T>::show()
 
 }
 
+template class urt::DFGLS<double>;
+template class urt::DFGLS<float>;
+
+
+

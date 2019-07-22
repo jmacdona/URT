@@ -80,3 +80,7 @@ void ADF<T>::show()
 
 }
 
+template class urt::ADF<double>;
+template class urt::ADF<float>;
+
+

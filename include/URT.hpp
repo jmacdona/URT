@@ -67,7 +67,7 @@
   #define EIGEN_NO_DEBUG
   #define EIGEN_NO_STATIC_ASSERT
 
-  #include <Eigen/Dense>
+  #include <eigen3/Eigen/Dense>
 
   namespace urt {
      template <typename T>
@@ -126,19 +126,19 @@
 #include "./PP.hpp"
 #include "./KPSS.hpp"
 
-// template class specializations
-template class urt::OLS<double>;
-template class urt::OLS<float>;
-template class urt::UnitRoot<double>;
-template class urt::UnitRoot<float>;
-template class urt::ADF<double>;
-template class urt::ADF<float>;
-template class urt::DFGLS<double>;
-template class urt::DFGLS<float>;
-template class urt::PP<double>;
-template class urt::PP<float>;
-template class urt::KPSS<double>;
-template class urt::KPSS<float>;
+// template class specializations (move to individual .cpp files otherwise it breaks instantiation and linking)
+//template class urt::OLS<double>;
+//template class urt::OLS<float>;
+//template class urt::UnitRoot<double>;
+//template class urt::UnitRoot<float>;
+//template class urt::ADF<double>;
+//template class urt::ADF<float>;
+//template class urt::DFGLS<double>;
+//template class urt::DFGLS<float>;
+//template class urt::PP<double>;
+//template class urt::PP<float>;
+//template class urt::KPSS<double>;
+//template class urt::KPSS<float>;
 
 //=================================================================================================
 
